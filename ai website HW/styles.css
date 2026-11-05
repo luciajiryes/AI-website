@@ -1,0 +1,100 @@
+/* Basic styling for the AI explainer website */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #263b50;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0 0 10px;
+}
+
+header p {
+  margin: 0;
+}
+
+nav {
+  background-color: #e3e8ed;
+  padding: 14px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px 12px;
+  color: #263b50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #263b50;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #245b85;
+}
+
+footer {
+  background-color: #263b50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 30px 15px;
+  }
+
+  nav a {
+    margin: 5px 8px;
+  }
+
+  main {
+    padding: 0 12px;
+  }
+
+  section {
+    padding: 18px;
+  }
+}
